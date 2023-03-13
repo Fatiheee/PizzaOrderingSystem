@@ -222,7 +222,7 @@ def main():
             uid_number = int(input('ID Number: '))
             ucard_number = int(input('Card Number: '))
             ucard_password = int(input('Card Password: '))
-            order_save(uname, uid_number, ucard_number, ucard_password)
+            order_save(uname, uid_number, ucard_number, ucard_password, order_number)
             
         
         elif pay == 'no':
